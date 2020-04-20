@@ -1,0 +1,45 @@
+[{
+        "path": "SmartClock/SmartHome.js",
+        "filters": [{
+            "intent_action": "home"
+        }],
+        "params": {
+            "pageName": "SmartHome",
+            "statusBarType": "immersion",
+            "statusBarStyle": false
+        }
+    },
+    {
+        "path": "SmartClock/Mine.js",
+        "filters": [{
+            "intent_action": "mine"
+        }],
+        "params": {
+            "pageName": "Mine",
+            "statusBarType": "immersion",
+            "statusBarStyle": false
+        }
+    },
+    {
+        "path": "SmartClock/SmartDiscovery.js",
+        "filters": [{
+            "intent_action": "SmartDiscovery"
+        }],
+        "params": {
+            "pageName": "SmartDiscovery",
+            "statusBarType": "immersion",
+            "statusBarStyle": false
+        }
+    },
+    {
+        "path": "SmartClock/AuthCoocaa.js",
+        "filters": [{
+            "intent_action": "login"
+        }],
+        "params": {
+            "pageName": "authCoocaa",
+            "statusBarType": "immersion",
+            "statusBarStyle": false
+        }
+    }
+]
